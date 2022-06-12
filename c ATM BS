@@ -57,7 +57,7 @@ int main(){
 				}
 		    case 2:
 			    printf("\n\t\t Please enter the amount : ");
-			    scanf("d",&amount);
+			    scanf("%d",&amount);
 			    balance +=amount;
 			
 			    printf("\n\t\tYou have deposited Rs.%d. Your new balance is %.2f",amount,balance);
